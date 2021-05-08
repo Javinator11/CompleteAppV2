@@ -58,6 +58,9 @@ class AddViewController: UIViewController {
                 switchOutlet.isOn = false
             }
                 
+        } else{
+            self.title = "Add Book"
+
         }
 
     }
